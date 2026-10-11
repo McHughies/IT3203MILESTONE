@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <!-- Background -->
+  <rect width="600" height="360" rx="24" fill="#eaf2ff"/>
+
+  <!-- Browser window -->
+  <rect x="70" y="50" width="460" height="260" rx="16"
+        fill="white" stroke="#2563eb" stroke-width="5"/>
+  <path d="M70 95 H530" stroke="#2563eb" stroke-width="4"/>
+  <circle cx="100" cy="74" r="7" fill="#ef4444"/>
+  <circle cx="125" cy="74" r="7" fill="#f59e0b"/>
+  <circle cx="150" cy="74" r="7" fill="#22c55e"/>
+
+  <!-- Security shield -->
+  <path d="M300 115 L390 150 V215
+           Q390 270 300 295
+           Q210 270 210 215 V150 Z"
+        fill="#2563eb"/>
+
+  <!-- Checkmark -->
+  <path d="M260 205 L290 235 L345 175"
+        fill="none" stroke="white"
+        stroke-width="14" stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Title -->
+  <text x="300" y="335" text-anchor="middle"
+        font-family="Arial" font-size="20"
+        font-weight="bold" fill="#1e3a8a">
+    Web Application Security
+  </text>
+</svg>
