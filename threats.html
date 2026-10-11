@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An IT 3203 educational project about web application security fundamentals.">
+  <title>Common Web Threats | Web Application Security</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Shared site structure: consistent menu and class-project attribution. -->
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner"><a class="brand" href="index.html"><span class="brand-symbol">◆</span> SECURE<span>BYDESIGN</span></a>
+      <nav aria-label="Main navigation" class="main-nav"><a href="index.html">Home</a>
+<a href="threats.html" aria-current="page">Common Threats</a>
+<a href="defenses.html">Security Practices</a>
+<a href="concepts.html">Key Concepts</a>
+<a href="resources.html">References</a>
+<a href="about.html">About</a></nav>
+    </div>
+  </header>
+  <main id="main" class="shell">
+    <section class="page-intro"><p class="eyebrow">RESEARCH / PART 01</p><h1>Common Web Threats</h1><p class="lede">Understanding the problem is the first step toward safer websites.</p></section>
+    
+<section class="section-block"><h2>How vulnerabilities are exploited</h2><p>Web applications accept input, manage sessions, and access stored data. Attackers may take advantage of design or implementation weaknesses in these interactions. The OWASP Top 10 provides a widely used overview of critical categories of web application risk.</p><div class="card-grid"><article class="card"><h3>Broken access control</h3><p>An application may allow a user to view or change data that should belong to someone else.</p></article><article class="card"><h3>Injection</h3><p>Unsafe input can be interpreted as commands or queries instead of ordinary data.</p></article><article class="card"><h3>Security misconfiguration</h3><p>Default settings, exposed debug features, or unnecessary services can increase risk.</p></article><article class="card"><h3>Vulnerable components</h3><p>Outdated libraries and frameworks can contain known security weaknesses.</p></article></div></section><section class="section-block"><h2>Threats at a glance</h2><div class="table-wrap"><table><caption>Illustrative web application risks and possible consequences</caption><thead><tr><th scope="col">Threat</th><th scope="col">Example weakness</th><th scope="col">Potential impact</th></tr></thead><tbody><tr><th scope="row">Access control</th><td>Missing permission checks</td><td>Exposure of another user's data</td></tr><tr><th scope="row">Injection</th><td>Untrusted values included in a query</td><td>Data disclosure or tampering</td></tr><tr><th scope="row">Misconfiguration</th><td>Debug information left visible</td><td>Extra clues for attackers</td></tr><tr><th scope="row">Outdated software</th><td>Unpatched dependency</td><td>Exploitation of a known flaw</td></tr></tbody></table></div><p class="source-note">Research source: <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">OWASP Top 10 project</a>.</p></section><section class="callout"><h2>Key takeaway</h2><p>A single control rarely solves every threat. Secure websites use multiple safeguards, appropriate permissions, maintenance, and testing.</p></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><span>© 2026 Web Application Security · Educational research website</span><span>This is a class project for <a href="https://ksuweb.github.io/IT3203/">KSU IT 3203</a>.</span></div></footer>
+</body>
+</html>
